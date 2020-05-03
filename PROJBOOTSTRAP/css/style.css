@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+*{
+    box-sizing: border-box;
+}
+header,section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Snigle-font:"Sniglet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua One",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to right#114357, #f29492);
+}
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+footer{
+    background:rgba(0, 0, 0, 0.8) ;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+
+}footer p>span{
+    color: #ff512f;
+
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer.input-group.input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer.column{
+    color: #dd2476;
+}
+footer.column i+i{
+    padding: 0 0.5em;
+}
